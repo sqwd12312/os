@@ -1,0 +1,113 @@
+/* CSS Document form bwm*/
+
+a{	
+	text-decoration: none;
+}
+#link a {
+	color: #ffffff; font-size:12px 
+}
+#link1 a {	
+	font-size: 12pt; text-decoration: none;
+	font-weight: bold; color:#F5f7f7; 
+}
+#link2 a {
+	text-decoration: none; 	margin:20px; color:#ffffff; 
+}
+td { 
+	font-size: 12px; 
+}
+#font1 {
+	font-weight:bold; font-size:16px; color:#F5f7f7;
+	margin:10px;
+}
+#top{
+	position:absolute; font-size:46px; top:78px; left: 246px; 
+	width: 240px; font-weight: bold;
+}
+#reg{
+	color:#33FF00;
+}
+#font {
+	font-family: "»ªÎÄÐÐ¿¬";
+	font-size:36px;
+	color: #f5f6f7;
+}
+body {
+	background-color:#f5f6f7;
+}
+.contain{
+	height:100%;
+	weight:100%;
+}
+.left-box{
+    width: 199px;
+    float: left;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
+}
+ul, li, ol, dl, dt, dd {
+    list-style: none;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, a, abbr, body, cite, dd, dl, dt, h1, h2, h3, h4, h5, h6, iframe, input, li, object, ol, p, pre, span, ul {
+    font-family: 'Microsoft YaHei','SF Pro Display',Roboto,Noto,Arial,'PingFang SC',sans-serif;
+}
+a, abbr, address, b, blockquote, cit, code, dd, del, dfn, dl, dt, em, fieldset, h1, h2, h3, h4, h5, h6, hr, i, ins, label, legend, li, ol, p, pre, q, samp, small, strong, sub, sup, ul {
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+.left-box .aside{
+    background: #fff;
+    border-bottom: 1px solid #e9eaeb;
+}
+li{
+    display: inline-block;
+}
+li {
+    list-style: none;
+}
+.left-box .aside li{
+    height: 35px;
+    width: 100%;
+    line-height: 35px;
+    font-size: 14px;
+    color: #4d4d4d;
+    padding-left: 16px;
+    box-sizing: border-box;
+    margin-bottom: 1px;
+}
+.left-box .aside li.router-link-active{
+    background: #b20b13;
+    color: #fff;
+}
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+a{
+    color: #42b983;
+}
+.left-box .aside li .zl{
+    font-size: 14px;
+    color: #4d4d4d;
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    width: 100%;
+}
+
+.left-box .aside li:hover .zl{
+    color: #ca0c16;
+}
+
+.blue{
+    background-color: #4680ff;
+}
+
+	
+}

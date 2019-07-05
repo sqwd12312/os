@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="../css/left.css" rel="stylesheet" type="text/css">
+<script src="../js/left.js" ></script>
+</head>
+<body>
+
+
+<div class="left-box">
+  <ul class="aside">
+    <li onclick='g(this.id)' id=w>
+      <a href="student.jsp" class="zl" target="mainFrame">学生信息管理</a>
+    </li>
+    <li onclick='g(this.id)' id=i>
+      <a href="teacher.jsp" class="zl" target="mainFrame">教师信息管理</a>
+    </li>
+    <li onclick='g(this.id)' id=y>
+      <a href="course.jsp" class="zl" target="mainFrame">作业信息管理</a>
+    </li>
+     <li onclick='g(this.id)' id=z>
+      <a href="../" class="zl" target="_parent">退出登录</a>
+    </li>
+  </ul>
+</div>
+
+
+<script type=text/javascript>
+    function g(x)
+    {
+        d=document.getElementsByTagName('li')
+        for(p=d.length;p--;){
+            if(d[p].id!=x){d[p].style.backgroundColor='#FFFFFF'/*其他*/}
+            else{d[p].style.backgroundColor='#4680ff'/*点击的*/} 
+        } 
+     }
+</script>
+
+</body>
+</html>

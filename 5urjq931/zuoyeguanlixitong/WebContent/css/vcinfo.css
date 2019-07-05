@@ -1,0 +1,92 @@
+body {
+    background-image:url("../images/bk.jpg");
+	margin-left: 0px;
+	
+}
+
+.all-contain{
+
+
+  	height:100%;
+  	width:100%;
+  	border-left:solid 1px gray;
+
+}
+
+.all-contain h3.title {
+    font-size: 20px;
+    color: #3d3d3d;
+    height: 90px;
+    line-height: 90px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.per-info  h3.title {
+    font-size: 20px;
+    color: #3d3d3d;
+    height: 90px;
+    line-height: 90px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+
+table.hovertable {
+	font-family:'Microsoft YaHei';
+    margin-left: 160px;
+	height:auto;
+  	width:70%;
+    font-family: verdana,arial,sans-serif;
+    font-size:20px;
+    color:#333333;
+    border-width: 1px;
+    border-color: #999999;
+    border-collapse: collapse;
+}
+table.hovertable th {
+
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #a9c6c9;
+}
+table.hovertable tr {
+	
+    font-family:'Microsoft YaHei';
+    background-color:#ffffff;
+ 
+}
+table.hovertable td {
+
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+  
+}
+
+.hovertable a{
+
+    color: #3399ea;
+	text-decoration: none;
+
+}
+.first_tr{
+	font-weight:bold;
+}
+
+.paging a{
+
+    color: #3399ea;
+	text-decoration: none;
+
+}
+
+.paging {
+	
+	margin-top=10px;
+	height:40px;
+}
+
+.paging-contain {
+	height:30px;
+	margin-top=20px;
+	
+}

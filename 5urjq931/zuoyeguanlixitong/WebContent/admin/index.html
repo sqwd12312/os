@@ -1,0 +1,41 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>管理员登录</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat:400,700'>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'>
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
+
+</head>
+ 
+<body>
+
+<div class="container">
+  <div class="info">
+    <h1>Operation System</h1>
+  </div>
+</div>
+<div class="form">
+  <div class="thumbnail"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/169963/hat.svg"/></div>
+    <form class="login-form" method="post" action="../login">
+    <input type="text" name="name" value="账号" onfocus="this.value=''"/>
+    <input type="password" name="password" value="密码" onfocus="this.value=''"/>
+ 
+    <div class="admin-login">
+    <button name="select" value="teacher">Admin</button>
+    </div>
+    <p class="admin-message"><a href="../main/index.jsp">Back</a></p>
+  
+   </form>
+  
+</div>
+
+</body>
+
+</html>
+ 

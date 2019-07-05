@@ -1,0 +1,99 @@
+.os-toolbar {
+    font-size: .75em;
+    color: #333;
+    line-height: 1.5em;
+    background: #fff;
+     box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
+    min-width: 1200px;
+    width: 100%;
+    padding: 0 0px 0 0px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body .os-toolbar .container{
+    width: 1200px;
+    margin: 0 auto;
+    height:42px;
+
+   
+}
+
+.os-toolbar .container:after, .os-toolbar .container:before {
+    content: " ";
+    display: table;
+}
+
+body .os-toolbar .container .left-menu {
+    margin-left: -40px;
+}
+
+.os-toolbar .pull-left {
+    float: left;
+}
+
+.os-toolbar .clearfix {
+    overflow: visible;
+}
+
+.os-toolbar li, .os-toolbar ul {
+    margin: 0;
+    padding: 0;
+    height: 50%;
+}
+
+.os-toolbar ul {
+    list-style: none;
+}
+
+
+.os-toolbar li {
+    list-style: none;
+    float: left;
+    height: 40px;
+    width: auto;
+    border: 1px solid #eee;
+    border-width: 0 1px;
+    border-right-color: #fff;
+    position: relative;
+    background: 0 0;
+}
+
+.os-toolbar .container .left-menu li a {
+    display: block;
+    margin-left: 6px;
+    margin-right: 6px;
+    height: 38px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #3D3D3D;
+}
+
+.os-toolbar a:link{
+    color: #333;
+    text-decoration: none;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.os-toolbar .container li {
+    border-left: none;
+    border-right: none;
+    width: auto;
+    -webkit-transition: background-color 1s;
+    transition: background-color 1s;
+}
+body{
+    margin: 0;
+	height:40px;
+}

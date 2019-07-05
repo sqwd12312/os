@@ -1,0 +1,62 @@
+
+
+input[type=checkbox] {
+    margin-right: 10px;
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    position: relative;
+}
+ 
+input[type=checkbox]:after {
+    position: absolute;
+    width: 10px;
+    height: 15px;
+    top: 0;
+    content: " ";
+    background-color: #fff;
+    color: #fff;
+    display: inline-block;
+    visibility: visible;
+    border: 1px solid grey;
+    padding: 0 3px;
+    border-radius: 3px;
+}
+ 
+input[type=checkbox]:checked:after {
+    background-color: #0f97e7;
+    content: "✓";
+    font-size: 12px;
+}
+ 
+input[type=checkbox]:disabled:after {
+    width: 10px;
+    height: 15px;
+    top: 0;
+    color: #fff;
+    display: inline-block;
+    visibility: visible;
+    border: 1px solid grey;
+    padding: 0 3px;
+    border-radius: 3px;
+    background-color: #E9E7E3;
+    content: "✓";
+    font-size: 12px;
+}
+.download-contain{
+	height:25px;
+	margin-bottom:20px;
+}
+.word-download{
+	float:right;
+	margin-right:210px;
+    width: 72px;
+    height: 36px;
+    background: #0f97e7;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  
+}

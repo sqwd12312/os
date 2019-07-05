@@ -1,0 +1,77 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8 ">
+</head>
+
+<link href="../css/acinfo.css" rel="stylesheet" type="text/css">
+<script src="../js/date.js" ></script>
+
+<body topmargin="0px">
+
+
+ <div class="all-contain">
+    <div class="box">
+      <h3 class="title">布置作业</h3>
+    </div>
+  <div class="download-div">
+  
+   <form name="form" method="post" action="../teacherAcinfo">
+  <p class="nock word">
+  <span class="nc">作业名称：</span>
+  
+  <div class="from_item">
+    <div class="from-content">
+      <div class="ncinput">
+        <input type="text" name="cname"  autocomplete="off" class="inputinner">
+     </div>
+   </div>
+  </div>
+  
+    <p class="nock word">
+  <span class="nc">作业要求：</span>
+
+  <div class="from_item">
+    <div class="from-content">
+      <div class="ncinput">
+        <input type="text" name="require"  autocomplete="off" class="inputinner">
+      </div>
+    </div>
+  </div>
+  </p>
+  
+    <p class="nock word">
+  <span class="nc">作业编号：</span>
+
+  <div class="from_item">
+    <div class="from-content">
+      <div class="ncinput">
+        <input  type="text" name="identifier"  autocomplete="off" class="inputinner">
+      </div>
+    </div>
+  </div>
+  </p>
+  
+    <p class="nock word">
+  <span class="nc">截止日期：</span>
+
+  <div class="from_item">
+    <div class="from-content">
+      <div class="ncinput">
+        <input type="text" name="eTime"  autocomplete="off" class="inputinner" onfocus="HS_setDate(this)">
+      </div>
+    </div>
+  </div>
+  </p>
+
+  <div class="btn_group">
+    <input type="submit" name="Submit" value="发布"  class="confirm">
+      
+    <input class = "cancel" type="reset" value="重置">
+  </div>
+  </form>
+  </div>
+  </div>
+</body>
+</html>
